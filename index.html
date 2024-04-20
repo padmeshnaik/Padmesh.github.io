@@ -12,12 +12,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-	<style>
-	.date-display {
-	    font-weight: bold;
-	    color: red;  // Color red is just for demonstration, adjust as needed
-	}
-	</style>
+
 
 </head>
 
@@ -357,14 +352,6 @@
 </html>
 
 <script>
-	$(document).ready(function() {
-    // Wrap dates in a span tag
-    const experienceDivs = $('div[data-date]');
-    experienceDivs.each(function() {
-        const $div = $(this);
-        const date = $div.attr('data-date');
-        $div.prepend('<span class="date-display">' + date + '</span>');  // Prepend the date at the beginning of the div
-    });
 		
     function expandImage(img) {
         var overlay = document.getElementById("imageOverlay");
