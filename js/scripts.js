@@ -78,16 +78,7 @@
         });
 
     });
-    // Wrap dates in a span tag
-        const experienceDivs = document.querySelectorAll('div[data-date]');
-        experienceDivs.forEach(div => {
-            const date = div.getAttribute('data-date');
-            const dateSpan = document.createElement('span');
-            dateSpan.className = 'date-display';
-            dateSpan.textContent = date;
-            div.insertBefore(dateSpan, div.firstChild);
-        });
-    
+
     // Open mobile menu
     $('#mobile-menu-open').click(function() {
         $('header, body').addClass('active');
