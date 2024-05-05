@@ -275,6 +275,23 @@
                 <a href="https://github.com/padmeshnaik/Image-classification-using-CNN" target="_blank">View Project on Github</a>
             </div>
         </div>
+
+	<div id="projects" class="background-alt" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+        <div id="imageOverlay" onclick="closeOverlay()" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.8); z-index: 10;"></div>
+        <div class="project shadow-large" style="display: flex; flex-wrap: wrap; margin-bottom: 20px; min-height: 250px">
+            <div class="project-image" style="flex: 1; min-width: 300px; max-width: 50%; position: relative; cursor: pointer;" onclick="expandImage(this.children[0])">
+                <img src="images/cnn_image.png" style="width: 100%; height: auto;"/>
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); color: white; display: flex; justify-content: center; align-items: center; opacity: 0;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0">
+                    Click to Zoom
+                </div>
+            </div>
+            <div class="project-info" style="flex: 1; min-width: 700px; padding: 10px 150px; margin-right: 20px;max-height: 500px; overflow-y: auto;">
+                <h2 style="font-size: 38px; margin-top: 10px ;margin-bottom: 10px;">Recommendation System using AutoEncoders</h2>
+                <p>
+		Implemented a stacked autoencoder (SAE) in PyTorch to develop a recommender system using the Movielens 100K dataset. The system effectively predicts user movie preferences, demonstrating significant reductions in test loss and enhancing personalized movie recommendations.		</p>
+                <a href="https://github.com/padmeshnaik/Recommendation-System-using-AutoEncoders" target="_blank">View Project on Github</a>
+            </div>
+        </div>
 	    
 	<!-- Repeat for other projects as needed -->
     </div>
