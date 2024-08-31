@@ -184,21 +184,23 @@
 
     <div id="projects" class="background-alt" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 	<h2 class="heading">Projects</h2>
-        <div id="imageOverlay" onclick="closeOverlay()" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.8); z-index: 10;"></div>
-        <div class="project shadow-large" style="display: flex; flex-wrap: wrap; margin-bottom: 20px;min-height: 300px;">
-            <div class="project-image" style="flex: 1; min-width: 300px; max-width: 50%; position: relative; cursor: pointer;" onclick="expandImage(this.children[0])">
-                <img src="images/Lhotse2.jpg" style="width: 100%; height: auto;"/>
-                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); color: white; display: flex; justify-content: center; align-items: center; opacity: 0;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0">
-                    Click to Zoom
-                </div>
-            </div>
-            <div class="project-info" style="flex: 1; min-width: 700px; padding: 150px;">
-                <h2 style="font-size: 40px; margin-top: 0px ;margin-bottom: 10px;">Consignment Shop</h2>
-                <p style=" padding: 0px 0px 3px;">
-                    Developed a web application that improves online shopping for computers by offering sorting, filtering, and comparison features,by utilizing technologies such as React.js for front-end development, AWS Lambda for serverless back-end operations, and MySQL for database management.        
-                </p>         
-                    <a href="https://github.com/akankshapawar1/ConsignmentShop" target="_blank">View Project on Github</a>
-            </div>
+	<div>
+	        <div id="imageOverlay" onclick="closeOverlay()" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.8); z-index: 10;"></div>
+	        <div class="project shadow-large" style="display: flex; flex-wrap: wrap; margin-bottom: 20px;min-height: 300px;">
+	            <div class="project-image" style="flex: 1; min-width: 300px; max-width: 50%; position: relative; cursor: pointer;" onclick="expandImage(this.children[0])">
+	                <img src="images/Lhotse2.jpg" style="width: 100%; height: auto;"/>
+	                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); color: white; display: flex; justify-content: center; align-items: center; opacity: 0;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0">
+	                    Click to Zoom
+	                </div>
+	            </div>
+	            <div class="project-info" style="flex: 1; min-width: 700px; padding: 150px;">
+	                <h2 style="font-size: 40px; margin-top: 0px ;margin-bottom: 10px;">Consignment Shop</h2>
+	                <p style=" padding: 0px 0px 3px;">
+	                    Developed a web application that improves online shopping for computers by offering sorting, filtering, and comparison features,by utilizing technologies such as React.js for front-end development, AWS Lambda for serverless back-end operations, and MySQL for database management.        
+	                </p>         
+	                    <a href="https://github.com/akankshapawar1/ConsignmentShop" target="_blank">View Project on Github</a>
+	            </div>
+	</div>
         </div>
         <!-- Repeat for other projects as needed -->
 
